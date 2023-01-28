@@ -1,12 +1,24 @@
 body{
     margin: 0;
 }
+
 .wrapper{
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 20px;
+  w
   
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 header{
     
@@ -19,7 +31,7 @@ header{
     z-index: -1;
 }
 nav{
-    height: 50px;
+    height: 50x;
     background-color: black;
     color: white;
     text-align: center;
@@ -52,15 +64,18 @@ section{
     padding: 2rem;
     background-color: black;
     color: white;
+    text-align: -moz-center;
    
 }
+  
 .para{
    
     text-align: center;
     width: 45%;
-    padding-left: 28%;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-size: 40px;
+    justify-content: center;
     
 }
 footer{
@@ -74,6 +89,7 @@ footer{
 footer h2{
     margin-top: 2px;
     padding-top: 10px;
+    position: relative;
 }
 
 

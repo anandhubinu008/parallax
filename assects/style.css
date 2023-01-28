@@ -48,11 +48,11 @@ nav{
 transform: translateZ(-10px) scale(2);
 }
 .center{
-transform: translateZ(-9px) scale(1);
+transform: translateZ(-6px) scale(1.0);
 padding-top: 750px;
 }
 .forground{
-transform: translateZ(3px) scale(1.2);
+transform: translateZ(5px) scale(1.0);
 }
 .background,  
 .forground,
@@ -104,7 +104,6 @@ footer h2{
         padding: 2rem;
         background-color: black;
         color:white;
-        
        
     }
     .para{
@@ -113,13 +112,22 @@ footer h2{
         width: 80%;
         padding-top: 5%;
         padding-bottom: 5%;
-        font-size: 30px;
+        font-size: 24px;
         justify-content: center;
         
     }
     footer {
         font-size: smaller;
     }
+    .background{
+        transform: translateZ(-10px) scale(2);
+        }
+        .center{
+        transform: translateZ(-6px) scale(0.6);
+        padding-top: 750px;
+        }
+        .forground{
+        transform: translateZ(2px) scale(1.1);
+        }
 }
 
-    

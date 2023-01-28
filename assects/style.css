@@ -31,21 +31,24 @@ header{
     transform-style: preserve-3d;
     z-index: -1;
 }
+
+
 nav{
-    height: 50x;
+    height: 70px;
     background-color: black;
     color: white;
     text-align: center;
     padding: 2px;
     width: 100%;
-    font-size: smaller;
-   
+    font-size: medium;
+    position: fixed;
+    z-index: 1;
 }
 .background{
 transform: translateZ(-10px) scale(2);
 }
 .center{
-transform: translateZ(-5px) scale(1);
+transform: translateZ(-9px) scale(1);
 padding-top: 750px;
 }
 .forground{
@@ -113,6 +116,9 @@ footer h2{
         font-size: 40px;
         justify-content: center;
         
+    }
+    footer {
+        font-size: smaller;
     }
 }
 

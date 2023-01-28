@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    
 }
 
 .wrapper{
@@ -11,12 +12,12 @@ body{
   
 }
 
-.wrapper::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.wrapper {
+body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -65,13 +66,14 @@ section{
     background-color: black;
     color: white;
     text-align: -webkit-center;
+    padding-top: 5%;
    
 }
   
 .para{
    
     text-align: center;
-    width: 45%;
+    width: 35%;
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 40px;
@@ -79,18 +81,39 @@ section{
     
 }
 footer{
-    width: 100%;
+
     text-align: center;
-    height: 50px;
+    height: 60px;
     background-color: black;
     color: white;
-    font-size: small;
+    font-size: medium;
+    
 }
 footer h2{
     margin-top: 2px;
-    padding-top: 10px;
-    position: relative;
+    padding-top: 16px;
+   
+    width: 100%;
 }
-
+@media only screen and (max-width:700px) {
+    section{
+        font-size: 2rem;
+        padding: 2rem;
+        background-color: black;
+        color:white;
+        
+       
+    }
+    .para{
+   
+        text-align: center;
+        width: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 40px;
+        justify-content: center;
+        
+    }
+}
 
     
